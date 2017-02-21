@@ -1,10 +1,10 @@
-package controllers
+package com.capgemini.shopping.controllers
 
 import javax.inject._
+
+import com.capgemini.shopping.services.Counter
 import play.api._
 import play.api.mvc._
-
-import services.Counter
 
 /**
  * This controller demonstrates how to use dependency injection to

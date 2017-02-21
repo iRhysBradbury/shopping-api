@@ -1,4 +1,4 @@
-package controllers
+package com.capgemini.shopping.controllers
 
 import akka.actor.ActorSystem
 import javax.inject._

@@ -1,4 +1,4 @@
-package services
+package com.capgemini.shopping.services
 
 import java.util.concurrent.atomic.AtomicInteger
 import javax.inject._

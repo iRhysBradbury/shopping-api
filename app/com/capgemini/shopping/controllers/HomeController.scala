@@ -1,4 +1,4 @@
-package controllers
+package com.capgemini.shopping.controllers
 
 import javax.inject._
 import play.api._
