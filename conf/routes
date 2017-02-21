@@ -1,2 +1,1 @@
-# An example controller showing a sample home page
-GET     /   controllers.HomeController.index
+GET     /products     com.capgemini.shopping.controllers.ShoppingController.getProducts()
