@@ -1,1 +1,3 @@
-GET     /products     com.capgemini.shopping.controllers.ShoppingController.getProducts()
+GET     /products     com.capgemini.shopping.controllers.ShoppingController.getProducts
+
+POST    /buy          com.capgemini.shopping.controllers.ShoppingController.postItems
