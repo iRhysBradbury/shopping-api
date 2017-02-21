@@ -58,6 +58,12 @@ object Product {
 
 trait ProductDefinitions {
 
+  /**
+    * Produce a product from it's name on input.
+    *
+    * @param productStr the product name
+    * @return a Success of Produce if found, or a Failure if not found.
+    */
   def fromString(productStr: String): Try[Product] = {
     productStr.toLowerCase match {
       case "apple" => Success(Product.Apple)
