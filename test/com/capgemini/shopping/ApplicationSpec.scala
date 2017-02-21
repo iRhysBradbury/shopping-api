@@ -39,7 +39,7 @@ class ApplicationSpec extends PlaySpec with OneAppPerTest {
       ).get
 
       val expected = PriceCalculation(
-        price = BigDecimal(2.05),
+        price = BigDecimal(1.45),
         currency = Product.defaultCurrency
       )
 
