@@ -69,7 +69,7 @@ trait ProductDefinitions {
       case "apple" => Success(Product.Apple)
       case "orange" => Success(Product.Orange)
       case _ => Failure(
-        new IllegalArgumentException(s"Product $productStr not found in: ${all.mkString(" ")}")
+        new IllegalArgumentException(s"Product $productStr not found in: ${all.map(_.name).mkString(" ")}")
       )
     }
   }
