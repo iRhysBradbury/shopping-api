@@ -19,7 +19,7 @@ case class Product(
   currency: Currency
 )
 
-object Product {
+trait ProductDefinitions {
 
   def fromString(productStr: String): Try[Product] = {
     productStr match {

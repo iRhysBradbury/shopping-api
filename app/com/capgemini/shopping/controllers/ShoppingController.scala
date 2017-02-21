@@ -8,7 +8,9 @@ import scala.concurrent.ExecutionContext
 class ShoppingController @Inject()(implicit exec: ExecutionContext) extends Controller {
 
   def getProducts(): Action[AnyContent] = Action {
+    Ok(
 
+    )
   }
 
 }
